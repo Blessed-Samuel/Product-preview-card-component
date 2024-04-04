@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background-color: var(--cream);
+}
+
+:root {
+    /* ========== FONT STYLES =============== */
+    --paragraph-font-size: 18px;
+    --header-font-size: 45px;
+
+
+    /* ========== COLOR STYLES =============== */
+    --cream: hsl(30, 38%, 92%);
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+
+
+    /* ========== FONT WEIGHTS =============== */
+    --mont-font-Weights: 450;
+    --Fraunces-font-weights: 700;
+}
+
+/* ==================== Desktop Rules ================================ */
+
+.Main__container {
+    margin: 300px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+
+.page__content {
+    width: 100%;
+    max-width: 50%;
+    border-radius: 0 25px 25px 0;
+    background-color: var(--White);
+}
+
+.inner__content__wrapper {
+    padding: 40px;
+}
+
+/* ============== Main Content Rules ==================== */
+    .inner__content__wrapper {
+        width: 100%;
+        max-width: 95%;
+    }
+
+    .img img {
+        width: 100%;
+        border-radius: 25px 0 0 25px;
+    }
+
+    .card__title h5     {
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 5px;
+        padding-bottom: 20px;
+    }
+    
+    .card__header h1 {
+        font-weight: var(--Fraunces-font-weights);
+        font-size: var(--header-font-size);
+        font-family: "Fraunces", sans-serif;
+        width: 100%;
+        max-width: 90%;
+        color: var(--Very-dark-blue);
+        line-height: 116%;
+        padding-bottom: 40px;
+    }
+    
+    .page__paragraph p {
+        font-size: var(--paragraph-font-size);
+        font-weight: var(--mont-font-Weights);
+        color: var(--Dark-grayish-blue);
+        line-height: 160%;
+        letter-spacing: 1px;
+        padding-bottom: 35px;
+    }
+
+    .numbers {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        padding-bottom: 40px;
+    }
+
+    .numbers h4:nth-child(1) {
+        font-size: 45px;
+        font-family: "Fraunces", sans-serif;
+        color: var(--Dark-cyan);
+    }
+
+    .numbers h4:nth-child(2) {
+        font-size:14px;
+        font-weight: 400;
+        color: var(--Dark-grayish-blue);
+        letter-spacing: 1px;
+    }
+
+    .action__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--Dark-cyan);
+        padding: 20px;
+        width: 100%;
+        max-width: 95%;
+        gap: 20px;
+        border-radius: 10px;
+    }
+
+    .action__btn a {
+        color: var(--White);
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "montserrat", sans-serif;
+        font-weight: 400;
+    }
+
+    .action__btn img {
+        width: 7%;
+    }
+
+/* ==================== Mobile Responsive Rules ================================ */
+
+@media screen and (max-width: 767px) {
+
+    .img {
+        max-height: 80vh;
+        overflow: hidden;
+        position: relative;
+        height: 300px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .Main__container {
+        margin: 20px;
+    }
+    
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+    }
+    
+    
+    .page__content {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 0;
+        background-color: var(--White);
+    }
+    
+    .inner__content__wrapper {
+        padding: 20px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .inner__content__wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .img img {
+        width: 100%;
+        position: absolute;
+        top: -110px;
+    }
+
+    .card__title h5     {
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 5px;
+        padding-bottom: 20px;
+    }
+    
+    .card__header h1 {
+        font-weight: var(--Fraunces-font-weights);
+        font-size: 33px;
+        font-family: "Fraunces", sans-serif;
+        width: 100%;
+        max-width: 100%;
+        color: var(--Very-dark-blue);
+        line-height: 116%;
+        padding-bottom: 15px;
+    }
+    
+    .page__paragraph p {
+        font-size: 12.2px;
+        font-weight: var(--mont-font-Weights);
+        color: var(--Dark-grayish-blue);
+        line-height: 160%;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .numbers {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        padding-bottom: 30px;
+    }
+
+    .numbers h4:nth-child(1) {
+        font-size: 35px;
+        font-family: "Fraunces", sans-serif;
+        color: var(--Dark-cyan);
+    }
+
+    .numbers h4:nth-child(2) {
+        font-size:14px;
+        font-weight: 400;
+        color: var(--Dark-grayish-blue);
+        letter-spacing: 1px;
+    }
+
+    .action__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--Dark-cyan);
+        padding: 20px;
+        width: 100%;
+        max-width: 100%;
+        gap: 20px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .action__btn a {
+        color: var(--White);
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "montserrat", sans-serif;
+        font-weight: 400;
+    }
+
+    .action__btn img {
+        width: 7%;
+    }
+
+}
