@@ -23,8 +23,9 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
--[x](../product-preview-card-component-main/images/Desktop-approach.png,) -[x](../product-preview-card-component-main/images/mobile-approach.png)
+### Screenshots
+![](../product-preview-card-component-main/images/Desktop-approach.png,) 
+![](../product-preview-card-component-main/images/mobile-approach.png)
 
 ### Links
 - Solution URL:(https://github.com/Blessed-Samuel/Product-preview-card-component)
