@@ -23,6 +23,7 @@ The designs were created to the following widths:
 - White: hsl(0, 0%, 100%)
 
 ## Typography
+- Montserrat and poppins.
 
 ### Body Copy
 
@@ -35,5 +36,3 @@ The designs were created to the following widths:
 
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
 - Weights: 700
-
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
